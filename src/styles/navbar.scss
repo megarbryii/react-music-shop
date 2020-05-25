@@ -1,0 +1,29 @@
+.nav-wrapper {
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+
+    .nav-link-wrapper {
+        margin: 15px 0;
+        font-size: 3rem;
+        text-transform: uppercase;
+        border-bottom: 1px solid transparent;
+        transition: 0.5s ease-in-out;
+
+        a {
+            color: $header;
+            text-decoration: none;
+            cursor: pointer;
+
+            &:hover {
+                color: $hov;
+                border-bottom: 1px solid $hov;
+            }
+        }
+
+        .page-active {
+            color: $act;
+            border-bottom: 1px solid $act;
+        }
+    }
+}

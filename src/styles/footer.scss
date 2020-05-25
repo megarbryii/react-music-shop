@@ -1,0 +1,28 @@
+.footer-wrapper {
+    display: flex;
+    justify-content: space-around;
+    height: 80px;
+    
+
+    .facebook {
+        color: $facebook;
+        border: 1px solid transparent;
+        font-size: 4rem;
+        width: 80px;
+
+        &:hover {
+            border: 1px solid $facebook;
+        }
+    }
+
+    .instagram {
+        color: $instagram;
+        border: 1px solid transparent;
+        font-size: 4rem;
+        width: 80px;
+
+        &:hover {
+            border: 1px solid $instagram;
+        }
+    }
+}
